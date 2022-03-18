@@ -1,4 +1,4 @@
-# Server-applications
+# Server applications
 A central server undertakes the service of a set of applications. 
 Each application has the following characteristics: 
 
