@@ -8,3 +8,7 @@ Each application has the following characteristics:
 * Server login time 
 * Status (value indicating whether the application is running, running or pending)
 * Running time
+
+
+
+> Mini semester project, Computer Science, University
