@@ -11,4 +11,4 @@ Each application has the following characteristics:
 
 
 
-> Mini semester project, Computer Science, University
+> Mini semester project, Computer Science, University of Thessaly
