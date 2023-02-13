@@ -1,6 +1,9 @@
 # Server applications
-A central server undertakes the service of a set of applications. 
-Each application has the following characteristics: 
+
+Application servers are designed to provide applications with the fundamentals that they need to make them functional and efficient.
+
+## How it works
+The user enters the number of applications and their details. 
 
 * ID 
 * Size
@@ -9,8 +12,7 @@ Each application has the following characteristics:
 * Status (value indicating whether the application is running, running or pending)
 * Running time
 
-## Description
-The user enters the number of applications and their details. The input time is generated automatically. The initial status of applications is awaiting.
+The input time is generated automatically. The initial status of applications is awaiting.
 
 Right after, a random application from the list changes status and become 'running' and the application's components will be placed in a queue. By changing the state of the application, it will be removed from the server list and inserted into the queue.
 
