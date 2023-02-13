@@ -10,7 +10,7 @@ Each application has the following characteristics:
 * Running time
 
 ## Description
-The user enters the number of applications that will initially be included in the server list and their details. The input time is generated automatically, while the initial state of applications is initially waiting.
+The user enters the number of applications that will initially be included in the server list and their details. The input time is generated automatically, while the initial state of applications is initially awaiting status.
 
 In a discrete time step, a random application state change from those in the list will occur. Its status will become 'running' and the application's components will be placed in a queue. By changing the state of the application, it will be removed from the list and inserted into the queue.
 
