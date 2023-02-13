@@ -10,9 +10,9 @@ Each application has the following characteristics:
 * Running time
 
 ## Description
-The user enters the number of applications that will initially be included in the server list and their details. The input time is generated automatically, while the initial state of applications is initially awaiting status.
+The user enters the number of applications and their details. The input time is generated automatically. The initial status of applications is awaiting.
 
-In a discrete time step, a random application state change from those in the list will occur. Its status will become 'running' and the application's components will be placed in a queue. By changing the state of the application, it will be removed from the list and inserted into the queue.
+In a discrete time step, a random application from the list changes status and become 'running' and the application's components will be placed in a queue. By changing the state of the application, it will be removed from the server list and inserted into the queue.
 
 Your program will output the first element of the queue if the server is free to run an application. The execution time will be stored in the corresponding field of each application, while its status will be 'running'. And its execution time will also appear on the screen.
 
