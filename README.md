@@ -1,4 +1,4 @@
-# Server applications
+# Server Operation
 
 Application servers are designed to provide applications with the fundamentals that they need to make them functional and efficient.
 
