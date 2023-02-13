@@ -9,12 +9,12 @@ The user enters the number of applications and their details.
 * Size
 * Name 
 * Server login time 
-* Status (value indicating whether the application is running, running or pending)
+* Status (running or pending)
 * Running time
 
-The input time is generated automatically. The initial status of applications is awaiting.
+The input time is generated automatically. The initial status of applications is 'pending'.
 
-Right after, a random application from the list changes status and become 'running' and the application's components will be placed in a queue. By changing the state of the application, it will be removed from the server list and inserted into the queue.
+Right after, a random application from the server list changes status and become 'running' and the application's components will be placed in a queue. By changing the state of the application, it will be removed from the server list and inserted into the queue.
 
 Then, the program will output the first element of the queue if the server is free to run an application. The execution time will be stored in the corresponding field of each application, while its status will be 'running'. And its execution time will also appear on the screen.
 
